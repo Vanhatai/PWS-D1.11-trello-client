@@ -20,7 +20,7 @@ def read():
             print('\t' + '--Нет задач--')
             continue
         for task in task_data:
-            print(f"\t\u2022 {task['name']}")
+            print(f"\t\u2022 {task['name']} \t id: {task['id']}")
     print("\n")
 
 def create(name, column_name):
